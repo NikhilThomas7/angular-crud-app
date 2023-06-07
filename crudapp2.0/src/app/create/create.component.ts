@@ -10,6 +10,8 @@ import { ProductService } from '../product.service';
 })
 export class CreateComponent implements OnInit {
 
+  
+
   product: Product = new Product();
   constructor(private productService: ProductService,private router: Router){
 
